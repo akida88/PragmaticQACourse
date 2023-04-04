@@ -1,0 +1,49 @@
+h1 {
+  color: blue;
+}
+
+p, li {
+  color: green;
+}
+
+li {
+  list-style-type: none;
+}
+
+.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li.special,
+span.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+/*adjacent sibling combinator. Style p that's directly after h1*/
+h1 + p {
+  font-size: 200%;
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: magenta;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
